@@ -1,5 +1,11 @@
 /*
  *  Created a Table with name todo in the todoApplication.db file using the CLI.
+ * 
+        sqlite3 todoApplication.db
+        sqlite> CREATE TABLE Todo (id INT, todo VARCHAR, priority VARCHAR, status VARCHAR);
+
+        sqlite> INSERT INTO Todo (1,'Watch Movie','LOW','TO DO'),(2,'Learn Node Js','HIGH','IN PROGRESS'),(3,'Learn React Js','MEDIUM','TO DO'),(4,'Play Volley Ball','MEDIUM','DONE');
+
  */
 
 const express = require("express");
